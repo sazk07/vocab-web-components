@@ -1,0 +1,550 @@
+[
+  {
+    "word": "Adumbrate",
+    "definition": "augur",
+    "mark": [
+      "ad",
+      "umbrage"
+    ],
+    "etym": [
+      "to",
+      "shadow"
+    ]
+  },
+  {
+    "word": "Anathema",
+    "definition": "curse",
+    "mark": [
+      "ana",
+      "thema"
+    ],
+    "etym": [
+      "up",
+      "wrath"
+    ]
+  },
+  {
+    "word": "Antediluvian",
+    "definition": "ancient",
+    "mark": [
+      "ant",
+      "diluvium"
+    ],
+    "etym": [
+      "forehead",
+      "flood"
+    ]
+  },
+  {
+    "word": "Anodyne",
+    "definition": "benign",
+    "mark": [
+      "an",
+      "odyne"
+    ],
+    "etym": [
+      "without",
+      "pain"
+    ]
+  },
+  {
+    "word": "Apogee",
+    "definition": "zenith",
+    "mark": [
+      "apo",
+      "gaia"
+    ],
+    "etym": [
+      "away",
+      "earth"
+    ]
+  },
+  {
+    "word": "Apotheosis",
+    "definition": "quintessance",
+    "mark": [
+      "apo",
+      "theos"
+    ],
+    "etym": [
+      "change",
+      "god"
+    ]
+  },
+  {
+    "word": "Asperity",
+    "definition": "acrimonious",
+    "mark": "asper",
+    "etym": "harsh"
+  },
+  {
+    "word": "Asseverate",
+    "definition": "declare positively",
+    "mark": [
+      "ad",
+      "severus"
+    ],
+    "etym": [
+      "to",
+      "serious"
+    ]
+  },
+  {
+    "word": "Broach",
+    "definition": "approach",
+    "mark": "broche",
+    "etym": "spit for roasting"
+  },
+  {
+    "word": "Brook",
+    "definition": "tolerate"
+  },
+  {
+    "word": "Calumniate",
+    "definition": [
+      "asperse",
+      "traduce",
+      "vilify"
+    ],
+    "mark": "calumnia",
+    "etym": "false accusation"
+  },
+  {
+    "word": "Captious",
+    "definition": [
+      "cavilling",
+      "overcritical"
+    ],
+    "mark": [
+      "capere"
+    ],
+    "etym": [
+      "catch"
+    ]
+  },
+  {
+    "word": "Cavil",
+    "definition": "find unnecessary fault",
+    "mark": [
+      "cavillari"
+    ],
+    "etym": [
+      "jeer; mock"
+    ]
+  },
+  {
+    "word": "Celerity",
+    "definition": "alacrity",
+    "mark": "celer",
+    "etym": "swift"
+  },
+  {
+    "word": "Contentious",
+    "definition": [
+      "truculent",
+      "ornery"
+    ],
+    "mark": "contend",
+    "etym": "to contest"
+  },
+  {
+    "word": "Contumnacious",
+    "definition": [
+      "obstreperous",
+      "recalcitrant",
+      "restive",
+      "obstinate",
+      "balky",
+      "refractory",
+      "obdurate",
+      "pertinacious",
+      "implacable",
+      "mulish",
+      "peevish"
+    ],
+    "mark": "contumaci",
+    "etym": "insolent"
+  },
+  {
+    "word": "Denouement",
+    "definition": "finale",
+    "mark": [
+      "des",
+      "nouer"
+    ],
+    "etym": [
+      "out",
+      "tie"
+    ]
+  },
+  {
+    "word": "Desuetude",
+    "definition": [
+      "quiescence",
+      "abeyance",
+      "neglect"
+    ],
+    "mark": [
+      "de",
+      "suescere"
+    ],
+    "etym": [
+      "down",
+      "accustom"
+    ]
+  },
+  {
+    "word": "Desultory",
+    "definition": "slapdash",
+    "mark": [
+      "de",
+      "salire"
+    ],
+    "etym": [
+      "down",
+      "leap"
+    ]
+  },
+  {
+    "word": "Diaphanous",
+    "definition": "gossamer",
+    "mark": [
+      "dia",
+      "phainein"
+    ],
+    "etym": [
+      "through",
+      "show"
+    ]
+  },
+  {
+    "word": "Diffident",
+    "definition": "demure",
+    "mark": [
+      "dis",
+      "fidere"
+    ],
+    "etym": [
+      "away",
+      "trust"
+    ]
+  },
+  {
+    "word": "Dirge",
+    "definition": [
+      "lament",
+      "requiem",
+      "elegy"
+    ],
+    "mark": "dirige",
+    "etym": "direct"
+  },
+  {
+    "word": "Encomium",
+    "definition": [
+      "panegyric",
+      "paean",
+      "dithyramb"
+    ],
+    "mark": [
+      "en",
+      "comos"
+    ],
+    "etym": [
+      "in",
+      "merrymaking"
+    ]
+  },
+  {
+    "word": "Erudite",
+    "definition": "scholarly",
+    "mark": [
+      "e",
+      "rude"
+    ],
+    "etym": [
+      "out of",
+      "rudeness"
+    ]
+  },
+  {
+    "word": "Excoriate",
+    "definition": [
+      "castigate",
+      "vituperate"
+    ],
+    "mark": [
+      "ex",
+      "corium"
+    ],
+    "etym": [
+      "out",
+      "skin"
+    ]
+  },
+  {
+    "word": "Execrate",
+    "definition": "denounce",
+    "mark": [
+      "ex",
+      "sacrare"
+    ],
+    "etym": [
+      "out",
+      "devote to"
+    ]
+  },
+  {
+    "word": "Exegesis",
+    "definition": "elucidation",
+    "mark": [
+      "ex",
+      "hegeisthai"
+    ],
+    "etym": [
+      "out",
+      "to lead"
+    ]
+  },
+  {
+    "word": "Expiate",
+    "definition": "compensate",
+    "mark": "expiare",
+    "etym": "atone for"
+  },
+  {
+    "word": "Extirpate",
+    "definition": "obliterate",
+    "mark": [
+      "ex",
+      "stirps"
+    ],
+    "etym": [
+      "out",
+      "root"
+    ]
+  },
+  {
+    "word": "Fatuous",
+    "definition": "stupid",
+    "mark": [
+      "fatuus"
+    ],
+    "etym": "insipid"
+  },
+  {
+    "word": "Ford",
+    "definition": "shoal",
+    "mark": "portus",
+    "etym": "harbor"
+  },
+  {
+    "word": "Fractious",
+    "definition": "contentious",
+    "mark": "fraction",
+    "etym": "discord"
+  },
+  {
+    "word": "Gainsay",
+    "definition": "repudiate",
+    "mark": [
+      "gain",
+      "say"
+    ],
+    "etym": [
+      "against",
+      "say"
+    ]
+  },
+  {
+    "word": "Grouse",
+    "definition": "kvetch",
+    "mark": "groucier",
+    "etym": "complain"
+  },
+  {
+    "word": "Imbroglio",
+    "definition": "altercation",
+    "mark": [
+      "in",
+      "brogliare"
+    ],
+    "etym": [
+      "into",
+      "embroil"
+    ]
+  },
+  {
+    "word": "Ineluctable",
+    "definition": "inevitable",
+    "mark": [
+      "in",
+      "eluctari"
+    ],
+    "etym": [
+      "into",
+      "escape"
+    ]
+  },
+  {
+    "word": "Inimical",
+    "definition": "hostile",
+    "mark": "inimicus",
+    "etym": "enemy"
+  },
+  {
+    "word": "Inimitable",
+    "definition": "unrivaled",
+    "mark": "inimitablis",
+    "etym": "cannot be imitated"
+  },
+  {
+    "word": "Insouciant",
+    "definition": [
+      "carefree",
+      "blase"
+    ],
+    "mark": [
+      "in",
+      "soucier"
+    ],
+    "etym": [
+      "not",
+      "caring"
+    ]
+  },
+  {
+    "word": "Inveterate",
+    "definition": "entrenched",
+    "mark": [
+      "in",
+      "vetus"
+    ],
+    "etym": [
+      "into",
+      "old"
+    ]
+  },
+  {
+    "word": "Invidious",
+    "definition": "avaricious",
+    "mark": "invidia",
+    "etym": "envy"
+  },
+  {
+    "word": "Jejune",
+    "definition": [
+      "prosy",
+      "dull"
+    ],
+    "mark": "ieiunus",
+    "etym": "empty"
+  },
+  {
+    "word": "Laconic",
+    "definition": [
+      "aphoristic",
+      "sententious",
+      "pithy"
+    ]
+  },
+  {
+    "word": "Nugatory",
+    "definition": "null",
+    "mark": "nugari",
+    "etym": "jest"
+  },
+  {
+    "word": "Plangent",
+    "definition": [
+      "lugubrious",
+      "mournful"
+    ],
+    "mark": "plangere",
+    "etym": "to strike, beat"
+  },
+  {
+    "word": "Prosaic",
+    "definition": "ordinary",
+    "mark": "prosa",
+    "etym": "prose"
+  },
+  {
+    "word": "Recondite",
+    "definition": "abstruse",
+    "mark": "recondere",
+    "etym": "conceal"
+  },
+  {
+    "word": "Refulgent",
+    "definition": [
+      "effulgent",
+      "radiant"
+    ],
+    "mark": [
+      "re",
+      "fulgere"
+    ],
+    "etym": [
+      "back",
+      "to shine"
+    ]
+  },
+  {
+    "word": "Senescent",
+    "definition": "superannuated",
+    "mark": "senex",
+    "etym": "old"
+  },
+  {
+    "word": "Superannuation",
+    "definition": "obsolete"
+  },
+  {
+    "word": "Sedulous",
+    "definition": "assidious",
+    "mark": [
+      "se",
+      "dolo"
+    ],
+    "etym": [
+      "without",
+      "deception"
+    ]
+  },
+  {
+    "word": "Trenchant",
+    "definition": "sharpened",
+    "mark": "trenchier",
+    "etym": "to cut"
+  },
+  {
+    "word": "Vituperate",
+    "definition": "attack",
+    "mark": [
+      "vitium",
+      "parare"
+    ],
+    "etym": [
+      "fault",
+      "prepare"
+    ]
+  },
+  {
+    "word": "Imprecate",
+    "definition": [
+      "curse",
+      "execrate",
+      "anathematize",
+      "beshrew"
+    ],
+    "mark": [
+      "im",
+      "precari"
+    ],
+    "etym": [
+      "into",
+      "pray"
+    ]
+  }
+]

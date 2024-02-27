@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vocabulary Flash cards</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="components/vocab.js" type="module"></script>
+    <script src="javascript/script.js" type="module"></script>
+  </head>
+  <body>
+    <template>
+      <details>
+        <summary>
+          <span>
+            <slot name="vocab">NEED WORD</slot>
+          </span>
+        </summary>
+        <div>
+          <h4>Meaning</h4>
+          <slot name="definition"></slot>
+          <h4>Etymology</h4>
+          <slot name="etym"></slot>
+        </div>
+        <div>
+        </div>
+      </details>
+      <hr>
+    </template>
+    <main>
+      <vocab-element>
+        <span slot="vocab">Trenchant</span>
+        <ul slot="definition">
+          <li>
+            sharpened
+          </li>
+        </ul>
+        <ul slot="etym">
+          <li>
+            <mark>trenchier</mark>
+            :
+            <span>to cut</span>
+          </li>
+        </ul>
+      </vocab-element>
+      <vocab-element>
+        <span slot="vocab">Imprecate</span>
+        <ul slot="definition">
+          <li>
+            curse
+          </li>
+          <li>
+            execrate
+          </li>
+          <li>
+            anathematize
+          </li>
+          <li>
+            beshrew
+          </li>
+        </ul>
+        <ul slot="etym">
+          <li>
+            <mark>im</mark>
+            :
+            <span>into</span>
+          </li>
+          <li>
+            <mark>precari</mark>
+            :
+            <span>pray</span>
+          </li>
+        </ul>
+      </vocab-element>
+    </main>
+  </body>
+</html>

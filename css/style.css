@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  padding: 5%;
+}
+
+vocab-element {
+  flex: auto;
+}
+
+span {
+  padding: 10px;
+}
+
+ul {
+  padding-left: 60px;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text */
+  }
+  vocab-element {
+    background-color: #000;
+    color: #fff;
+  }
+}

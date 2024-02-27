@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0px;
+}
+
+details {
+  padding: 20px;
+}
+
+summary {
+  font-weight: 800;
+  padding: 20px;
+}
+
+h4 {
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+
