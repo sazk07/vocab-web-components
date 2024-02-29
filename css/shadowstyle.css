@@ -12,12 +12,12 @@ html {
 }
 
 details {
-  padding: 20px;
+  padding: 10px;
 }
 
 summary {
   font-weight: 800;
-  padding: 20px;
+  padding: 5px;
 }
 
 h4 {
@@ -26,4 +26,7 @@ h4 {
   padding-left: 30px;
 }
 
+ul {
+  padding-left: 60px;
+}
 

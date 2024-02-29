@@ -55,7 +55,7 @@
       "gaia"
     ],
     "etym": [
-      "away",
+      "away/change",
       "earth"
     ]
   },
@@ -67,7 +67,7 @@
       "theos"
     ],
     "etym": [
-      "change",
+      "away/change",
       "god"
     ]
   },
@@ -309,8 +309,14 @@
   {
     "word": "Expiate",
     "definition": "compensate",
-    "mark": "expiare",
-    "etym": "atone for"
+    "mark": [
+      "ex",
+      "piare"
+    ],
+    "etym": [
+      "out",
+      "appease"
+    ]
   },
   {
     "word": "Extirpate",
@@ -375,14 +381,31 @@
     ]
   },
   {
-    "word": "Ineluctable",
-    "definition": "inevitable",
+    "word": "Imprecate",
+    "definition": [
+      "curse",
+      "execrate",
+      "anathematize",
+      "beshrew"
+    ],
     "mark": [
-      "in",
-      "eluctari"
+      "im",
+      "precari"
     ],
     "etym": [
       "into",
+      "pray"
+    ]
+  },
+  {
+    "word": "Ineluctable",
+    "definition": "inevitable",
+    "mark": [
+      "ne",
+      "eluctari"
+    ],
+    "etym": [
+      "not",
       "escape"
     ]
   },
@@ -393,19 +416,13 @@
     "etym": "enemy"
   },
   {
-    "word": "Inimitable",
-    "definition": "unrivaled",
-    "mark": "inimitablis",
-    "etym": "cannot be imitated"
-  },
-  {
     "word": "Insouciant",
     "definition": [
       "carefree",
       "blase"
     ],
     "mark": [
-      "in",
+      "ne",
       "soucier"
     ],
     "etym": [
@@ -528,23 +545,6 @@
     "etym": [
       "fault",
       "prepare"
-    ]
-  },
-  {
-    "word": "Imprecate",
-    "definition": [
-      "curse",
-      "execrate",
-      "anathematize",
-      "beshrew"
-    ],
-    "mark": [
-      "im",
-      "precari"
-    ],
-    "etym": [
-      "into",
-      "pray"
     ]
   }
 ]
