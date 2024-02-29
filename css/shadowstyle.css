@@ -11,22 +11,11 @@ html {
   margin: 0px;
 }
 
-details {
-  padding: 10px;
-}
-
 summary {
   font-weight: 800;
-  padding: 5px;
 }
 
 h4 {
   font-weight: 600;
-  padding: 10px;
-  padding-left: 30px;
+  padding: 5px 0;
 }
-
-ul {
-  padding-left: 60px;
-}
-

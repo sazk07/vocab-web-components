@@ -115,22 +115,14 @@
       "cavilling",
       "overcritical"
     ],
-    "mark": [
-      "capere"
-    ],
-    "etym": [
-      "catch"
-    ]
+    "mark": "capere",
+    "etym": "catch"
   },
   {
     "word": "Cavil",
     "definition": "find unnecessary fault",
-    "mark": [
-      "cavillari"
-    ],
-    "etym": [
-      "jeer; mock"
-    ]
+    "mark": "cavillari",
+    "etym": "jeer; mock"
   },
   {
     "word": "Celerity",
@@ -164,6 +156,18 @@
     ],
     "mark": "contumaci",
     "etym": "insolent"
+  },
+  {
+    "word": "Decrepitude",
+    "definition": "infirmity",
+    "mark": [
+      "de",
+      "crepare"
+    ],
+    "etym": [
+      "down",
+      "to crack or break"
+    ]
   },
   {
     "word": "Denouement",
@@ -333,9 +337,7 @@
   {
     "word": "Fatuous",
     "definition": "stupid",
-    "mark": [
-      "fatuus"
-    ],
+    "mark": "fatuus",
     "etym": "insipid"
   },
   {
@@ -466,10 +468,117 @@
     ]
   },
   {
+    "word": "Lubricious",
+    "definition": [
+      "libidinous",
+      "lasvicious"
+    ],
+    "mark": "lubricus",
+    "etym": "slippery"
+  },
+  {
+    "word": "Mendicant",
+    "definition": "beggar",
+    "mark": "mendicus",
+    "etym": "beggar"
+  },
+  {
+    "word": "Meretricious",
+    "definition": [
+      "cheap",
+      "conspicuous",
+      "gaudy"
+    ],
+    "mark": "meretricius",
+    "etym": "pertaining to harlots"
+  },
+  {
+    "word": "Minatory",
+    "definition": "portentous",
+    "mark": "minatorius",
+    "etym": "threatening"
+  },
+  {
+    "word": "Mollify",
+    "definition": "to soothe",
+    "mark": "mollis",
+    "etym": "soft"
+  },
+  {
     "word": "Nugatory",
     "definition": "null",
     "mark": "nugari",
     "etym": "jest"
+  },
+  {
+    "word": "Obstreperous",
+    "definition": [
+      "yawping",
+      "vociferous"
+    ],
+    "mark": [
+      "ob",
+      "strepere"
+    ],
+    "etym": [
+      "against",
+      "make a noise"
+    ]
+  },
+  {
+    "word": "Palliate",
+    "definition": "justify",
+    "mark": "pall",
+    "etym": "cloak"
+  },
+  {
+    "word": "Panegyric",
+    "definition": [
+      "commendation",
+      "encomium"
+    ],
+    "mark": [
+      "pan",
+      "agora"
+    ],
+    "etym": [
+      "all",
+      "in place of assembly"
+    ]
+  },
+  {
+    "word": "Pellucid",
+    "definition": "clear",
+    "mark": [
+      "per",
+      "lucere"
+    ],
+    "etym": [
+      "through",
+      "shine"
+    ]
+  },
+  {
+    "word": "Peroration",
+    "definition": "conclusion of speech",
+    "mark": [
+      "per",
+      "orare"
+    ],
+    "etym": [
+      "through",
+      "speak"
+    ]
+  },
+  {
+    "word": "Phlegmatic",
+    "definition": [
+      "calm",
+      "sluggish",
+      "unemotional"
+    ],
+    "mark": "phlegm",
+    "etym": "to burn"
   },
   {
     "word": "Plangent",
@@ -481,16 +590,46 @@
     "etym": "to strike, beat"
   },
   {
+    "word": "Probity",
+    "definition": "integrity",
+    "mark": "probus",
+    "etym": "worthy; good"
+  },
+  {
+    "word": "Propitiate",
+    "definition": "appease",
+    "mark": "propitiatus",
+    "etym": "appease"
+  },
+  {
     "word": "Prosaic",
     "definition": "ordinary",
     "mark": "prosa",
     "etym": "prose"
   },
   {
+    "word": "Puissance",
+    "definition": "power",
+    "mark": "puissant",
+    "etym": "mighty"
+  },
+  {
+    "word": "Quotidian",
+    "definition": "daily recurrence",
+    "mark": "quotus",
+    "etym": "how many?"
+  },
+  {
     "word": "Recondite",
     "definition": "abstruse",
     "mark": "recondere",
     "etym": "conceal"
+  },
+  {
+    "word": "Remonstrate",
+    "definition": "protest",
+    "mark": "remonstrate",
+    "etym": "point out"
   },
   {
     "word": "Refulgent",
@@ -508,10 +647,44 @@
     ]
   },
   {
+    "word": "Sagacious",
+    "definition": "wise",
+    "mark": "sage",
+    "etym": "wise"
+  },
+  {
+    "word": "Salacious",
+    "definition": "lascivious",
+    "mark": "salax",
+    "etym": "lustful"
+  },
+  {
+    "word": "Salutary",
+    "definition": "beneficial",
+    "mark": "salus",
+    "etym": "good health"
+  },
+  {
+    "word": "Saturnine",
+    "definition": "morose",
+    "mark": "saturn",
+    "etym": "born under the influence of saturn"
+  },
+  {
     "word": "Senescent",
     "definition": "superannuated",
     "mark": "senex",
     "etym": "old"
+  },
+  {
+    "word": "Sententious",
+    "definition": [
+      "homiletical",
+      "didactic",
+      "sermonic"
+    ],
+    "mark": "sentence",
+    "etym": "expression of a thought"
   },
   {
     "word": "Superannuation",
@@ -534,6 +707,16 @@
     "definition": "sharpened",
     "mark": "trenchier",
     "etym": "to cut"
+  },
+  {
+    "word": "Tyro",
+    "definition": "beginner"
+  },
+  {
+    "word": "Vitiate",
+    "definition": "corrupt",
+    "mark": "vitiare",
+    "etym": "to corrupt"
   },
   {
     "word": "Vituperate",

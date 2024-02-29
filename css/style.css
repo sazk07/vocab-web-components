@@ -1,7 +1,22 @@
+:root {
+  font-family: "Lato", "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --obsidian: #0b1215;
+  --snow: #fffafa;
+  --alice-blue: #f0f8ff;
+  --oil: #0c0c0c;
+}
+
 html {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -13,24 +28,34 @@ html {
   margin: 0;
 }
 
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+  background-color: var(--snow);
+  /* snow background */
+  color: var(--obsidian);
+  /* obsidian text */
+}
+
 main {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
   display: flex;
-  flex-direction: column;
-  padding: 50px;
 }
 
 vocab-element {
   flex: auto;
-}
-
-span {
-  padding: 10px;
+  background-color: var(--alice-blue);
+  /* alice blue background */
+  color: var(--oil);
+  /* oil text */
 }
 
 li {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Open Sans", sans-serif;
   padding: 5px;
 }
 
@@ -38,8 +63,8 @@ li {
 @media screen and (min-width: 992px) {
   main {
     flex-flow: column wrap;
-    height: 100vh;
-    gap: 20px;
+    height: 99vh;
+    gap: 21px;
   }
   vocab-element {
     flex: auto;
@@ -48,13 +73,15 @@ li {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    /* Dark background */
-    color: #e0e0e0;
-    /* Light text */
+    background-color: var(--obsidian);
+    /* obsidian background */
+    color: var(--snow);
+    /* snow text */
   }
   vocab-element {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--oil);
+    /* oil background */
+    color: var(--alice-blue);
+    /* alice blue text */
   }
 }
