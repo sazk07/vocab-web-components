@@ -16,6 +16,7 @@
   },
   "files": [
     "javascript/script.ts",
-    "components/vocab.ts"
+    "javascript/components/vocab.ts",
+    "javascript/components/button.ts"
   ]
 }
