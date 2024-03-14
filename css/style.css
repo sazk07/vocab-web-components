@@ -3,6 +3,8 @@
     sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,38 +22,72 @@ html {
   font-style: normal;
 }
 
+[data-theme="light"] {
+  --color-bg: var(--snow);
+  --color-fg: var(--obsidian);
+}
+
+[data-theme="dark"] {
+  --color-bg: var(--obsidian);
+  --color-fg: var(--snow);
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  flex-direction: column;
   margin: 0;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
-  place-items: center;
-  background-color: var(--snow);
-  /* snow background */
-  color: var(--obsidian);
-  /* obsidian text */
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+button {
+  border-radius: 100px;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  border: 0.25rem solid var(--color-fg);
+  transition: all 0.2s ease-in-out;
+}
+
+.icon {
+  width: 0.7rem;
+  height: 0.7rem;
+  vertical-align: middle;
+  fill: currentColor;
 }
 
 main {
-  max-width: 1680px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: left;
   display: flex;
+  flex-direction: column;
 }
 
 vocab-element {
   flex: auto;
-  background-color: var(--alice-blue);
-  /* alice blue background */
-  color: var(--oil);
-  /* oil text */
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  padding: 0.5rem;
 }
 
 li {
@@ -61,27 +97,29 @@ li {
 
 /* Large */
 @media screen and (min-width: 992px) {
-  main {
-    flex-flow: column wrap;
-    height: 99vh;
-    gap: 21px;
+  #app {
+    padding: 2rem;
+    height: 100vh;
   }
+
+  .btn-container {
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 10rem;
+  }
+
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  main {
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 95%;
+  }
+
   vocab-element {
     flex: auto;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--obsidian);
-    /* obsidian background */
-    color: var(--snow);
-    /* snow text */
-  }
-  vocab-element {
-    background-color: var(--oil);
-    /* oil background */
-    color: var(--alice-blue);
-    /* alice blue text */
   }
 }
