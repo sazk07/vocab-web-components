@@ -2,7 +2,7 @@
 
 interface Settings {
   localStorageTheme: string | null;
-  systemSettingDark: MediaQueryList;
+  sysSettingsDark: MediaQueryList;
 }
 
 interface ButtonSettings {
@@ -16,12 +16,12 @@ interface ButtonSettings {
 // fall back to light mode
 const getCurrTheme = ({
   localStorageTheme,
-  systemSettingDark,
+  sysSettingsDark,
 }: Settings): string => {
-  if (localStorageTheme !== null) {
+  if (localStorageTheme) {
     return localStorageTheme;
   }
-  if (systemSettingDark.matches) {
+  if (sysSettingsDark.matches) {
     return "dark";
   }
   return "light";
@@ -47,22 +47,21 @@ const button =
   document.createElement("button");
 const localStorageTheme = localStorage.getItem("theme");
 // get system settings
-const sysSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+const sysSettingsDark = window.matchMedia("(prefers-color-scheme: dark)");
 // current site settings
-let currThemeSetting = getCurrTheme({
-  localStorageTheme,
-  systemSettingDark: sysSettingDark,
-});
+let currTheme = getCurrTheme({ localStorageTheme, sysSettingsDark });
 // update theme setting and button text according to current settings
-updateButton({ buttonEl: button, isDark: currThemeSetting === "dark" });
-updateThemeOnHtmlEl({ theme: currThemeSetting });
+const isDark = currTheme === "dark";
+updateButton({ buttonEl: button, isDark });
+updateThemeOnHtmlEl({ theme: currTheme });
 
 // add event listener to button
 button.addEventListener("click", () => {
-  const newTheme = currThemeSetting === "light" ? "dark" : "light";
+  const newTheme = currTheme === "light" ? "dark" : "light";
   // update theme setting and button text
   localStorage.setItem("theme", newTheme);
-  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  const isDark = newTheme === "dark";
+  updateButton({ buttonEl: button, isDark });
   updateThemeOnHtmlEl({ theme: newTheme });
-  currThemeSetting = newTheme;
+  currTheme = newTheme;
 });

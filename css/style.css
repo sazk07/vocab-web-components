@@ -118,8 +118,4 @@ li {
     align-content: space-evenly;
     height: 95%;
   }
-
-  vocab-element {
-    flex: auto;
-  }
 }
