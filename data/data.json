@@ -1,7 +1,7 @@
 [
   {
     "word": "Adumbrate",
-    "definition": "augur",
+    "definition": "anticipate",
     "mark": [
       "ad",
       "umbrage"
@@ -134,6 +134,7 @@
     "word": "Contentious",
     "definition": [
       "truculent",
+      "aggressive",
       "ornery"
     ],
     "mark": "contend",
@@ -142,17 +143,12 @@
   {
     "word": "Contumnacious",
     "definition": [
-      "obstreperous",
+      "rebellious",
       "recalcitrant",
+      "recusant",
       "restive",
-      "obstinate",
       "balky",
-      "refractory",
-      "obdurate",
-      "pertinacious",
-      "implacable",
-      "mulish",
-      "peevish"
+      "refractory"
     ],
     "mark": "contumaci",
     "etym": "insolent"
@@ -184,8 +180,6 @@
   {
     "word": "Desuetude",
     "definition": [
-      "quiescence",
-      "abeyance",
       "neglect"
     ],
     "mark": [
@@ -199,7 +193,10 @@
   },
   {
     "word": "Desultory",
-    "definition": "slapdash",
+    "definition": [
+      "random",
+      "slapdash"
+    ],
     "mark": [
       "de",
       "salire"
@@ -211,7 +208,7 @@
   },
   {
     "word": "Diaphanous",
-    "definition": "gossamer",
+    "definition": "transparent",
     "mark": [
       "dia",
       "phainein"
@@ -223,7 +220,10 @@
   },
   {
     "word": "Diffident",
-    "definition": "demure",
+    "definition": [
+      "shy",
+      "demure"
+    ],
     "mark": [
       "dis",
       "fidere"
@@ -246,6 +246,7 @@
   {
     "word": "Encomium",
     "definition": [
+      "tribute",
       "panegyric",
       "paean",
       "dithyramb"
@@ -257,18 +258,6 @@
     "etym": [
       "in",
       "merrymaking"
-    ]
-  },
-  {
-    "word": "Erudite",
-    "definition": "scholarly",
-    "mark": [
-      "e",
-      "rude"
-    ],
-    "etym": [
-      "out of",
-      "rudeness"
     ]
   },
   {
@@ -300,7 +289,10 @@
   },
   {
     "word": "Exegesis",
-    "definition": "elucidation",
+    "definition": [
+      "clarify",
+      "elucidation"
+    ],
     "mark": [
       "ex",
       "hegeisthai"
@@ -342,7 +334,10 @@
   },
   {
     "word": "Ford",
-    "definition": "shoal",
+    "definition": [
+      "bank",
+      "shoal"
+    ],
     "mark": "portus",
     "etym": "harbor"
   },
@@ -353,8 +348,17 @@
     "etym": "discord"
   },
   {
+    "word": "Froward",
+    "definition": "mischievous",
+    "mark": "fro",
+    "etym": "mischief"
+  },
+  {
     "word": "Gainsay",
-    "definition": "repudiate",
+    "definition": [
+      "deny",
+      "repudiate"
+    ],
     "mark": [
       "gain",
       "say"
@@ -366,9 +370,27 @@
   },
   {
     "word": "Grouse",
-    "definition": "kvetch",
+    "definition": [
+      "complain",
+      "kvetch"
+    ],
     "mark": "groucier",
     "etym": "complain"
+  },
+  {
+    "word": "Gossamer",
+    "definition": [
+      "gauzy",
+      "flimsy"
+    ],
+    "mark": [
+      "goose",
+      "summer"
+    ],
+    "etym": [
+      "goose",
+      "summer"
+    ]
   },
   {
     "word": "Imbroglio",
@@ -446,7 +468,7 @@
   },
   {
     "word": "Invidious",
-    "definition": "avaricious",
+    "definition": "jealous",
     "mark": "invidia",
     "etym": "envy"
   },
@@ -477,6 +499,18 @@
     "etym": "slippery"
   },
   {
+    "word": "Maladroit",
+    "definition": "clumsy",
+    "mark": [
+      "mal",
+      "adroit"
+    ],
+    "etym": [
+      "badly",
+      "dexterous"
+    ]
+  },
+  {
     "word": "Mendicant",
     "definition": "beggar",
     "mark": "mendicus",
@@ -494,7 +528,10 @@
   },
   {
     "word": "Minatory",
-    "definition": "portentous",
+    "definition": [
+      "ominous",
+      "portentous"
+    ],
     "mark": "minatorius",
     "etym": "threatening"
   },
@@ -511,9 +548,41 @@
     "etym": "jest"
   },
   {
+    "word": "Obdurate",
+    "definition": [
+      "ruthless"
+    ],
+    "mark": [
+      "ob",
+      "durare"
+    ],
+    "etym": [
+      "against",
+      "harden"
+    ]
+  },
+  {
+    "word": "Obstinate",
+    "definition": [
+      "stubborn",
+      "mulish"
+    ],
+    "mark": [
+      "ob",
+      "stinare",
+      "mule"
+    ],
+    "etym": [
+      "against",
+      "stand",
+      "mule"
+    ]
+  },
+  {
     "word": "Obstreperous",
     "definition": [
       "yawping",
+      "clamorous",
       "vociferous"
     ],
     "mark": [
@@ -547,6 +616,12 @@
     ]
   },
   {
+    "word": "Peevish",
+    "definition": "irritable",
+    "mark": "pervertere",
+    "etym": "to turn about"
+  },
+  {
     "word": "Pellucid",
     "definition": "clear",
     "mark": [
@@ -569,6 +644,12 @@
       "through",
       "speak"
     ]
+  },
+  {
+    "word": "Pertinacious",
+    "definition": "persistent",
+    "mark": "pertinax",
+    "etym": "tenacious"
   },
   {
     "word": "Phlegmatic",
@@ -614,6 +695,12 @@
     "etym": "mighty"
   },
   {
+    "word": "Quiescence",
+    "definition": "inactivity",
+    "mark": "quiescere",
+    "etym": "to rest"
+  },
+  {
     "word": "Quotidian",
     "definition": "daily recurrence",
     "mark": "quotus",
@@ -621,7 +708,10 @@
   },
   {
     "word": "Recondite",
-    "definition": "abstruse",
+    "definition": [
+      "esoteric",
+      "abstruse"
+    ],
     "mark": "recondere",
     "etym": "conceal"
   },
@@ -692,7 +782,10 @@
   },
   {
     "word": "Sedulous",
-    "definition": "assidious",
+    "definition": [
+      "diligent",
+      "assidious"
+    ],
     "mark": [
       "se",
       "dolo"
@@ -701,6 +794,12 @@
       "without",
       "deception"
     ]
+  },
+  {
+    "word": "Spurious",
+    "definition": "counterfeit",
+    "mark": "spurio",
+    "etym": "illegitimate"
   },
   {
     "word": "Trenchant",
