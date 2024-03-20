@@ -154,6 +154,12 @@
     "etym": "insolent"
   },
   {
+    "word": "Decorous",
+    "definition": "polite",
+    "mark": "dek",
+    "etym": "to graciously accept"
+  },
+  {
     "word": "Decrepitude",
     "definition": "infirmity",
     "mark": [
@@ -331,6 +337,12 @@
     "definition": "stupid",
     "mark": "fatuus",
     "etym": "insipid"
+  },
+  {
+    "word": "Felicitous",
+    "definition": "congenial",
+    "mark": "felix",
+    "etym": "happy; fortunate; fruitful"
   },
   {
     "word": "Ford",
@@ -668,6 +680,10 @@
     ],
     "mark": "plangere",
     "etym": "to strike, beat"
+  },
+  {
+    "word": "Prepossess",
+    "definition": "influence"
   },
   {
     "word": "Probity",
