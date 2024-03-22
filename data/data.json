@@ -90,6 +90,12 @@
     ]
   },
   {
+    "word": "Bellicose",
+    "definition": "aggressive",
+    "mark": "bellum",
+    "etym": "war"
+  },
+  {
     "word": "Broach",
     "definition": "approach",
     "mark": "broche",
@@ -248,6 +254,12 @@
     ],
     "mark": "dirige",
     "etym": "direct"
+  },
+  {
+    "word": "Doughty",
+    "definition": "valiant",
+    "mark": "dohtig" ,
+    "etym": "strong"
   },
   {
     "word": "Encomium",
@@ -604,6 +616,12 @@
       "against",
       "make a noise"
     ]
+  },
+  {
+    "word": "Onerous",
+    "definition": "tough",
+    "mark": "onerostus",
+    "etym": "burdensome; heavy; oppressive"
   },
   {
     "word": "Palliate",
