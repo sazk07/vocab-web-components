@@ -370,6 +370,18 @@
     "etym": "happy; fortunate; fruitful"
   },
   {
+    "word": "Flocculent",
+    "definition": "like wool",
+    "mark": [
+      "floccus",
+      "ulent"
+    ],
+    "etym": [
+      "tuft of wool",
+      "full of"
+    ]
+  },
+  {
     "word": "Ford",
     "definition": [
       "bank",
@@ -863,6 +875,12 @@
     "definition": "counterfeit",
     "mark": "spurio",
     "etym": "illegitimate"
+  },
+  {
+    "word": "Thew",
+    "definition": "power",
+    "mark": "thews",
+    "etym": "habit, custom"
   },
   {
     "word": "Trenchant",
