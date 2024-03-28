@@ -129,6 +129,15 @@
     "etym": "catch"
   },
   {
+    "word": "Cauterize",
+    "definition": [
+      "reduce",
+      "blunted"
+    ],
+    "mark": "cauterizare",
+    "etym": "to brand with hot iron"
+  },
+  {
     "word": "Cavil",
     "definition": "find unnecessary fault",
     "mark": "cavillari",
@@ -563,6 +572,10 @@
     "etym": "threatening"
   },
   {
+    "word": "Monocoque",
+    "definition": "type of construction in which outer skin bears the stress load"
+  },
+  {
     "word": "Mollify",
     "definition": "to soothe",
     "mark": "mollis",
@@ -646,6 +659,19 @@
     "etym": [
       "all",
       "in place of assembly"
+    ]
+  },
+  {
+    "word": "Parietal",
+    "definition": "attached to the main wall",
+    "mark": "parietalis",
+    "etym": "of walls"
+  },
+  {
+    "word": "Pavonine",
+    "definition": [
+      "like a peacock",
+      "irisdescent"
     ]
   },
   {
