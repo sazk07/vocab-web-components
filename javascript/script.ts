@@ -17,7 +17,21 @@ const fetchData = async (url: string): Promise<Data[]> => {
     if (!data) {
       throw new Error("no data found");
     }
-    return data;
+    const sortedData = data.sort((a: Data, b: Data): number => {
+      const nameA = a.word?.toUpperCase();
+      const nameB = b.word?.toUpperCase();
+      if (!nameA || !nameB) {
+        throw new Error("word not found");
+      }
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    })
+    return sortedData;
   } catch (error) {
     console.error((error as Error).message);
     return [];

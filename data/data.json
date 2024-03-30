@@ -1,17 +1,5 @@
 [
   {
-    "word": "Adumbrate",
-    "definition": "anticipate",
-    "mark": [
-      "ad",
-      "umbrage"
-    ],
-    "etym": [
-      "to",
-      "shadow"
-    ]
-  },
-  {
     "word": "Anathema",
     "definition": "curse",
     "mark": [
@@ -98,12 +86,6 @@
     "definition": "aggressive",
     "mark": "bellum",
     "etym": "war"
-  },
-  {
-    "word": "Broach",
-    "definition": "approach",
-    "mark": "broche",
-    "etym": "spit for roasting"
   },
   {
     "word": "Brook",
@@ -990,6 +972,24 @@
     "etym": [
       "fault",
       "prepare"
+    ]
+  },
+  {
+    "word": "Broach",
+    "definition": "approach",
+    "mark": "broche",
+    "etym": "spit for roasting"
+  },
+  {
+    "word": "Adumbrate",
+    "definition": "anticipate",
+    "mark": [
+      "ad",
+      "umbrage"
+    ],
+    "etym": [
+      "to",
+      "shadow"
     ]
   }
 ]
