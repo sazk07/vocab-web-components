@@ -90,6 +90,10 @@
     ]
   },
   {
+    "word": "Atavistic",
+    "definition": "archaic"
+  },
+  {
     "word": "Bellicose",
     "definition": "aggressive",
     "mark": "bellum",
@@ -273,6 +277,12 @@
     "definition": "valiant",
     "mark": "dohtig",
     "etym": "strong"
+  },
+  {
+    "word": "Droll",
+    "definition": "humorous",
+    "mark": "drolle",
+    "etym": "buffoon"
   },
   {
     "word": "Encomium",
@@ -538,6 +548,21 @@
     ]
   },
   {
+    "word": "Lament",
+    "definition": [
+      "mourn",
+      "regret"
+    ],
+    "mark": "lamentari",
+    "etym": "wailing; weeping"
+  },
+  {
+    "word": "Limpid",
+    "definition": "crystal clear",
+    "mark": "limpidus",
+    "etym": "clear"
+  },
+  {
     "word": "Lubricious",
     "definition": [
       "libidinous",
@@ -575,6 +600,12 @@
     "etym": "pertaining to harlots"
   },
   {
+    "word": "Mephitic",
+    "definition": "foul smelling",
+    "mark": "mefitisi",
+    "etym": "noxious vapor"
+  },
+  {
     "word": "Minatory",
     "definition": [
       "ominous",
@@ -592,6 +623,12 @@
     "definition": "to soothe",
     "mark": "mollis",
     "etym": "soft"
+  },
+  {
+    "word": "Noisome",
+    "definition": "poisonous",
+    "mark": "anoi",
+    "etym": "annoyance"
   },
   {
     "word": "Nugatory",
@@ -791,6 +828,30 @@
     "etym": "conceal"
   },
   {
+    "word": "Recreant",
+    "definition": "afraid",
+    "mark": [
+      "re",
+      "credere"
+    ],
+    "etym": [
+      "again",
+      "believe"
+    ]
+  },
+  {
+    "word": "Redolent",
+    "definition": "fragrant",
+    "mark": [
+      "re",
+      "olere"
+    ],
+    "etym": [
+      "again",
+      "emit a scent"
+    ]
+  },
+  {
     "word": "Remonstrate",
     "definition": "protest",
     "mark": "remonstrate",
@@ -871,6 +932,15 @@
     ]
   },
   {
+    "word": "Specious",
+    "definition": [
+      "misleading",
+      "delusive"
+    ],
+    "mark": "species",
+    "etym": "appearance, form"
+  },
+  {
     "word": "Spurious",
     "definition": "counterfeit",
     "mark": "spurio",
@@ -891,6 +961,18 @@
   {
     "word": "Tyro",
     "definition": "beginner"
+  },
+  {
+    "word": "Verisimilitude",
+    "definition": "realism",
+    "mark": [
+      "veri",
+      "similis"
+    ],
+    "etym": [
+      "true",
+      "resembling"
+    ]
   },
   {
     "word": "Vitiate",
