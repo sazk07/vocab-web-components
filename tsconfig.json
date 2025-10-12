@@ -1,5 +1,7 @@
 {
+  "extends": "./configs/tsbase",
   "compilerOptions": {
+    "composite": true,
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
