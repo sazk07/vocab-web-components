@@ -1,3 +1,5 @@
+// TODO: refactor code
+
 "use strict";
 
 interface Data {
@@ -13,13 +15,10 @@ const fetchData = async (url: string): Promise<Data[]> => {
     if (!dataPromise.ok) {
       throw new Error(dataPromise.statusText);
     }
-    const data: Data[] = await dataPromise.json();
-    if (!data) {
-      throw new Error("no data found");
-    }
+    const data: Data[] = await dataPromise.json() as Data[];
     const sortedData = data.sort((a: Data, b: Data): number => {
-      const nameA = a.word?.toUpperCase();
-      const nameB = b.word?.toUpperCase();
+      const nameA = a.word.toUpperCase();
+      const nameB = b.word.toUpperCase();
       if (!nameA || !nameB) {
         throw new Error("word not found");
       }
@@ -76,9 +75,9 @@ const main = async (): Promise<void> => {
     // check if elem mark is in array form
     if (mark) {
       const marks = Array.isArray(mark) ? mark : [mark];
-      marks?.forEach((mark, index) => {
-        const currentEtym = Array.isArray(etym) ? etym[index] : etym;
-        const concatEtym = `<mark>${mark}</mark>: <span>${currentEtym}</span>`;
+      marks.forEach((mark, index) => {
+        const currentEtym = Array.isArray(etym) ? etym[index] : etym ?? "";
+        const concatEtym = `<mark>${mark}</mark>: <span>${currentEtym.toString()}</span>`;
         createLi("etym", concatEtym, vocabElement);
       });
     }
@@ -105,4 +104,4 @@ const main = async (): Promise<void> => {
     });
   }
 };
-main();
+void main();

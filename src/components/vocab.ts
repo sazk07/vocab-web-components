@@ -1,9 +1,6 @@
 "use strict";
 
 class VocabularyComponent extends HTMLElement {
-  constructor() {
-    super();
-  }
   connectedCallback() {
     try {
       const shadow = this.attachShadow({ mode: "open" });
@@ -12,9 +9,6 @@ class VocabularyComponent extends HTMLElement {
         throw new Error("vocab template not found");
       }
       const linkElem = document.createElement("link");
-      if (!linkElem) {
-        throw new Error("shadow link element could not be created");
-      }
       linkElem.setAttribute("rel", "stylesheet");
       linkElem.setAttribute("href", "css/shadowstyle.css");
       shadow.appendChild(linkElem);
