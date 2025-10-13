@@ -1,5 +1,3 @@
-// TODO: refactor code
-
 "use strict";
 
 interface Data {
@@ -75,11 +73,12 @@ const main = async (): Promise<void> => {
     // check if elem mark is in array form
     if (mark) {
       const marks = Array.isArray(mark) ? mark : [mark];
-      marks.forEach((mark, index) => {
-        const currentEtym = Array.isArray(etym) ? etym[index] : etym ?? "";
-        const concatEtym = `<mark>${mark}</mark>: <span>${currentEtym.toString()}</span>`;
+      for (let i = 0; i < marks.length; i++) {
+        const mark = marks[i] ?? "";
+        const currentEtym = Array.isArray(etym) ? etym[i] ?? "" : etym ?? "";
+        const concatEtym = `<mark>${mark}</mark>: <span>${currentEtym}</span>`;
         createLi("etym", concatEtym, vocabElement);
-      });
+      }
     }
 
     // close previous details element if new vocab element clicked
