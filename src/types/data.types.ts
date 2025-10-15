@@ -1,4 +1,12 @@
-"use strict";
+export interface ButtonSettings {
+  buttonEl: Element;
+  isDark: boolean;
+}
+
+export interface Settings {
+  localStorageTheme: string | null;
+  sysSettingsDark: MediaQueryList;
+}
 
 export interface Data {
   word: string;
