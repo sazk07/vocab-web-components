@@ -1,5 +1,3 @@
-"use strict";
-
 class VocabularyComponent extends HTMLElement {
   connectedCallback() {
     try {

@@ -1,5 +1,3 @@
-"use strict";
-
 import { createLi, createSpan } from "./utils/custom_ui";
 import { fetchData } from "./utils/utils";
 
