@@ -1,5 +1,3 @@
-"use strict";
-
 export const createSpan = (slot: string, text: string, parent: HTMLElement): void => {
   const vocabSpan = document.createElement("span");
   vocabSpan.setAttribute("slot", slot);
