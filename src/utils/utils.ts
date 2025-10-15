@@ -1,5 +1,3 @@
-"use strict";
-
 import { isDataArray, type Data } from "../types/data.types";
 
 export const fetchData = async (url: string) => {
