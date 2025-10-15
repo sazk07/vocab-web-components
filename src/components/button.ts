@@ -1,5 +1,3 @@
-"use strict";
-
 interface Settings {
   localStorageTheme: string | null;
   sysSettingsDark: MediaQueryList;
